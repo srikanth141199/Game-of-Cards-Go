@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	//var card string = "Ace of Spades"
 	// var temp = 123
@@ -30,7 +28,8 @@ func main() {
 
 	//hand.print()
 	//remainingDeck.print()
-	fmt.Println(cards.toString())
+	//fmt.Println(cards.toString())
+	cards.saveToFile("MyCards")
 }
 
 // func newCard() string {

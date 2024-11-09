@@ -17,9 +17,11 @@ func main() {
 	cards = append(cards, "six of Spades")
 	fmt.Println((cards))
 
-	for i, card := range cards {
-		fmt.Println(i, card)
-	}
+	// for i, card := range cards {
+	// 	fmt.Println(i, card)
+	// }
+
+	cards.print()
 
 }
 
